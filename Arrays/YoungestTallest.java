@@ -6,7 +6,6 @@ public class YoungestTallest {
         String[] names = {"Amar", "Akbar", "Anthony"};
         int[] ages = new int[3];
         double[] heights = new double[3];
-
         for (int i = 0; i < 3; i++) {
             System.out.print("Enter age and height for " + names[i] + ": ");
             ages[i] = sc.nextInt();
