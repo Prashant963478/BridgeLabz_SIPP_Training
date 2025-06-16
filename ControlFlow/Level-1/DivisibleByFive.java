@@ -7,7 +7,7 @@ public class DivisibleByFive{
    if(num%5==0){
        
        System.out.println("The" + num + "is divisible by 5");
-    } else{
+    } else {
          System.out.println("The number is not divisible by 5");
       }
   
