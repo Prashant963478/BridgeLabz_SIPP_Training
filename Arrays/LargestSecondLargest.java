@@ -8,7 +8,6 @@ public class LargestSecondLargest {
 
         int[] digits = new int[10];
         int index = 0;
-
         while (number != 0 && index < 10) {
             digits[index++] = number % 10;
             number /= 10;
