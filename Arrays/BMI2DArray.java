@@ -8,7 +8,6 @@ public class BMI2DArray {
 
         double[][] personData = new double[n][3];
         String[] weightStatus = new String[n];
-
         for (int i = 0; i < n; ) {
             System.out.print("Enter weight (kg) and height (m) for person " + (i + 1) + ": ");
             double weight = sc.nextDouble();
