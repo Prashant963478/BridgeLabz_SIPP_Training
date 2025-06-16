@@ -9,7 +9,6 @@ public class StudentGrades2D {
         int[][] marks = new int[n][3];
         double[] percentages = new double[n];
         char[] grades = new char[n];
-
         for (int i = 0; i < n; ) {
             System.out.println("Enter marks for student " + (i + 1) + ":");
             int sum = 0;
