@@ -10,7 +10,6 @@ public class StoreUntilZero {
         while (true) {
             System.out.print("Enter a number: ");
             double input = sc.nextDouble();
-
             if (input <= 0 || index == 10)
                 break;
 
