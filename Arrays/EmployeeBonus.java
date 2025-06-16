@@ -9,7 +9,6 @@ public class EmployeeBonus {
         double[] newSalaries = new double[10];
 
         double totalBonus = 0, totalOldSalary = 0, totalNewSalary = 0;
-
         for (int i = 0; i < 10; ) {
             System.out.print("Enter salary of employee " + (i + 1) + ": ");
             double salary = sc.nextDouble();
