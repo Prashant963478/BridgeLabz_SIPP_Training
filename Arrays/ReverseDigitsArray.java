@@ -5,7 +5,6 @@ public class ReverseDigitsArray {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
-
         int[] digits = new int[10];
         int index = 0;
 
