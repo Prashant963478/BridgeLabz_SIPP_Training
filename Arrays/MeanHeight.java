@@ -5,7 +5,6 @@ public class MeanHeight {
         Scanner sc = new Scanner(System.in);
         double[] heights = new double[11];
         double sum = 0;
-
         System.out.println("Enter height of 11 players:");
         for (int i = 0; i < 11; i++) {
             heights[i] = sc.nextDouble();
