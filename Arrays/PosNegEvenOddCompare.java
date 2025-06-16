@@ -9,7 +9,6 @@ public class PosNegEvenOddCompare {
             System.out.print("Enter number " + (i + 1) + ": ");
             numbers[i] = sc.nextInt();
         }
-
         for (int num : numbers) {
             if (num > 0) {
                 System.out.print(num + " is positive and ");
