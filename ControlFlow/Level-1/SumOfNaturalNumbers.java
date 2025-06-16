@@ -5,7 +5,7 @@ public class SumOfNaturalNumbers{
    int num=sc.nextInt();
    int sum=0;
    if(num>0){
-       sum=(num*(num+1))/2;
+       sum = (num*(num+1))/2;
        System.out.println("The sum of natural numbers is"+ sum);
     } else{
          System.out.println("The number"+num+"is not a natural number");
