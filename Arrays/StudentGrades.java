@@ -9,7 +9,6 @@ public class StudentGrades {
         int[][] marks = new int[n][3];
         double[] percentages = new double[n];
         char[] grades = new char[n];
-
         for (int i = 0; i < n; i++) {
             int sum = 0;
             for (int j = 0; j < 3; j++) {
