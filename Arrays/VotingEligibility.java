@@ -9,7 +9,6 @@ public class VotingEligibility {
             System.out.print("Enter age of student " + (i + 1) + ": ");
             ages[i] = sc.nextInt();
         }
-
         for (int age : ages) {
             if (age < 0) {
                 System.out.println("Invalid age: " + age);
