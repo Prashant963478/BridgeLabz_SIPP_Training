@@ -6,7 +6,7 @@ public class DigitFrequency {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
-        int[] freq = new int[10];
+        int[] freq  = new int[10];
 
         while (number > 0) {
             int digit = number % 10;
