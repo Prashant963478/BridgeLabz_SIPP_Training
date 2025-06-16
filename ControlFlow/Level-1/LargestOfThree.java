@@ -8,9 +8,7 @@ public class LargestOfThree{
         int number3 = scanner.nextInt();
         boolean isFirstLargest = false;
         boolean isSecondLargest = false;
-        boolean isThirdLargest = false;
-
-        
+        boolean isThirdLargest = false;        
         if (number1 > number2 && number1 > number3) {
             isFirstLargest = true;
         } else if (number2 > number1 && number2 > number3) {
