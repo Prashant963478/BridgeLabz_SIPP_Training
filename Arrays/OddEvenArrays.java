@@ -10,7 +10,6 @@ public class OddEvenArrays {
             System.out.println("Error: Not a natural number.");
             return;
         }
-
         int[] evens = new int[number / 2 + 1];
         int[] odds = new int[number / 2 + 1];
         int evenIndex = 0, oddIndex = 0;
