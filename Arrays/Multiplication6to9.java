@@ -7,7 +7,6 @@ public class Multiplication6to9 {
         int number = sc.nextInt();
 
         int[] result = new int[4];
-
         for (int i = 6; i <= 9; i++) {
             result[i - 6] = number * i;
         }
