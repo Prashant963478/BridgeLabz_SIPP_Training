@@ -7,7 +7,6 @@ public class MultiplicationTable {
         int number = sc.nextInt();
 
         int[] table = new int[10];
-
         for (int i = 1; i <= 10; i++) {
             table[i - 1] = number * i;
         }
