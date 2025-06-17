@@ -5,7 +5,6 @@ public class SpringSeason {
         if (month == 6 && day > 20) return false;
         return true;
     }
-
     public static void main(String[] args) {
         int month = Integer.parseInt(args[0]);
         int day = Integer.parseInt(args[1]);
