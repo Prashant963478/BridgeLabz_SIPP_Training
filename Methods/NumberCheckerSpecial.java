@@ -8,7 +8,6 @@ public class NumberCheckerSpecial {
         }
         return true;
     }
-
     public static boolean isNeon(int number) {
         int square = number * number;
         int sum = 0;
