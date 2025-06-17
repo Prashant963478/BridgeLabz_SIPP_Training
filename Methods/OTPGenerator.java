@@ -12,7 +12,6 @@ public class OTPGenerator {
         }
         return true;
     }
-
     public static void main(String[] args) {
         int[] otps = new int[10];
         for (int i = 0; i < 10; i++) {
