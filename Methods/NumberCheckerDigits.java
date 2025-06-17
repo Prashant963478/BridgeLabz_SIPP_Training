@@ -4,7 +4,6 @@ public class NumberCheckerDigits {
     public static int countDigits(int number) {
         return String.valueOf(Math.abs(number)).length();
     }
-
     public static int[] getDigits(int number) {
         String numStr = String.valueOf(Math.abs(number));
         int[] digits = new int[numStr.length()];
