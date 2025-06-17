@@ -13,7 +13,6 @@ public class NumberCheckerArmstrong {
         }
         return digits;
     }
-
     public static boolean isDuckNumber(int number) {
         int[] digits = getDigits(number);
         for (int digit : digits) {
