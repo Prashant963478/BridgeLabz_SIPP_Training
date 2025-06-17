@@ -9,7 +9,6 @@ public class EmployeeBonus {
         }
         return data;
     }
-
     public static double[][] calculateBonus(double[][] data) {
         double[][] result = new double[data.length][2];
         for (int i = 0; i < data.length; i++) {
