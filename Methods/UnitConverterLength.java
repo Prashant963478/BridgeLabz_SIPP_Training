@@ -8,7 +8,6 @@ public class UnitConverterLength {
     public static double convertFeetToYards(double feet) {
         return feet * 0.333333;
     }
-
     public static double convertMetersToInches(double meters) {
         return meters * 39.3701;
     }
