@@ -5,7 +5,6 @@ public class TriangularRun {
         double perimeter = side1 + side2 + side3;
         return 5000 / perimeter;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double side1 = scanner.nextDouble();
