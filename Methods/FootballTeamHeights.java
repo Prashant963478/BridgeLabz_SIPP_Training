@@ -14,7 +14,6 @@ public class FootballTeamHeights {
         }
         return sum;
     }
-
     public static double meanHeight(int[] heights) {
         return (double) sumHeights(heights) / heights.length;
     }
