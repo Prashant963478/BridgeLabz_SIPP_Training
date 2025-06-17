@@ -6,7 +6,6 @@ public class CalendarDisplay {
                           "July", "August", "September", "October", "November", "December"};
         return months[month - 1];
     }
-
     public static boolean isLeapYear(int year) {
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
