@@ -5,7 +5,6 @@ public class StudentVoteChecker {
         if (age < 0) return false;
         return age >= 18;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] ages = new int[10];
