@@ -12,7 +12,6 @@ public class CollinearPoints {
         double area = 0.5 * Math.abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
         return Math.abs(area) < 1e-10;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double x1 = scanner.nextDouble();
