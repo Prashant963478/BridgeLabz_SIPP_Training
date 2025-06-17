@@ -7,7 +7,6 @@ public class ChocolateDivider {
         result[1] = number % divisor;
         return result;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfChocolates = scanner.nextInt();
