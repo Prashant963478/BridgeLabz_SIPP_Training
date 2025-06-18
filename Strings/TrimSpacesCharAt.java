@@ -8,7 +8,6 @@ public class TrimSpacesCharAt {
         while (end >= 0 && str.charAt(end) == ' ') end--;
         return new int[]{start, end + 1};
     }
-
     public static String substringByCharAt(String str, int start, int end) {
         StringBuilder sb = new StringBuilder();
         for (int i = start; i < end && i < str.length(); i++) {
