@@ -4,7 +4,6 @@ public class ArrayIndexOutOfBoundsDemo {
        
         System.out.println(names[names.length]);
     }
-
     public static void handleException(String[] names) {
         try {
             System.out.println(names[names.length]);
