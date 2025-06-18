@@ -5,9 +5,7 @@ public class StringIndexOutOfBoundsDemo {
     public static void generateException(String text) {
        
         System.out.println(text.charAt(text.length()));
-    }
-
-    
+    }    
     public static void handleException(String text) {
         try {
             System.out.println(text.charAt(text.length()));
