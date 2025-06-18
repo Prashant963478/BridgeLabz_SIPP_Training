@@ -9,7 +9,6 @@ public class VowelConsonantCount {
         }
         return "Not a Letter";
     }
-
     public static int[] countVowelsConsonants(String str) {
         int vowels = 0, consonants = 0;
         for (int i = 0; i < str.length(); i++) {
