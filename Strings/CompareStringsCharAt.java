@@ -17,7 +17,6 @@ public class CompareStringsCharAt {
 
         boolean userResult = compareByCharAt(str1, str2);
         boolean builtInResult = str1.equals(str2);
-
         System.out.println("User-defined comparison: " + userResult);
         System.out.println("Built-in equals() comparison: " + builtInResult);
         System.out.println("Are both results same? " + (userResult == builtInResult));
