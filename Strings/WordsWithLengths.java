@@ -37,7 +37,6 @@ public class WordsWithLengths {
         }
         return arr;
     }
-
     public static void displayTable(String[][] arr) {
         System.out.println("Word\tLength");
         for (String[] row : arr) {
