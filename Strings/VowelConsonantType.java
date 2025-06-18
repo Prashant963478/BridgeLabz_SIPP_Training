@@ -9,7 +9,6 @@ public class VowelConsonantType {
         }
         return "Not a Letter";
     }
-
     public static String[][] getCharTypes(String str) {
         String[][] arr = new String[str.length()][2];
         for (int i = 0; i < str.length(); i++) {
