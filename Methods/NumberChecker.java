@@ -6,7 +6,6 @@ public class NumberChecker {
         else if (number < 0) return -1;
         else return 0;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();

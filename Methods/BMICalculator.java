@@ -11,7 +11,6 @@ public class BMICalculator {
         }
         return result;
     }
-
     public static String[] getBMIStatus(double[][] bmiData) {
         String[] status = new String[bmiData.length];
         for (int i = 0; i < bmiData.length; i++) {

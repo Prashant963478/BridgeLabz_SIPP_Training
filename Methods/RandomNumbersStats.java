@@ -6,7 +6,6 @@ public class RandomNumbersStats {
         }
         return array;
     }
-
     public static double[] findAverageMinMax(int[] numbers) {
         double sum = 0;
         int min = numbers[0];

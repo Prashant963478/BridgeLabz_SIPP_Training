@@ -13,7 +13,6 @@ public class NumberFactors {
         }
         return factors;
     }
-
     public static int sumOfFactors(int[] factors) {
         int sum = 0;
         for (int factor : factors) {

@@ -7,7 +7,6 @@ public class MinMaxNumbers {
         result[1] = Math.max(Math.max(number1, number2), number3);
         return result;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num1 = scanner.nextInt();

@@ -13,7 +13,6 @@ public class NumberCheckerTypes {
         }
         return factors;
     }
-
     public static boolean isPerfect(int number) {
         int sum = 0;
         for (int factor : getFactors(number)) {

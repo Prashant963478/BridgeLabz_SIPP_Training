@@ -9,7 +9,6 @@ public class Quadratic {
         double root2 = (-b - Math.sqrt(delta)) / (2 * a);
         return new double[]{root1, root2};
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();

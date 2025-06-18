@@ -13,7 +13,6 @@ public class FactorsCalculator {
         }
         return factors;
     }
-
     public static int greatestFactor(int[] factors) {
         return factors[factors.length - 1];
     }

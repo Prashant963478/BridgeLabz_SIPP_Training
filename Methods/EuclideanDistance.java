@@ -10,7 +10,6 @@ public class EuclideanDistance {
         double b = y1 - m * x1;
         return new double[]{m, b};
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double x1 = scanner.nextDouble();

@@ -9,7 +9,6 @@ public class NumberCheckerHarshad {
         }
         return digits;
     }
-
     public static int countDigits(int number) {
         return String.valueOf(Math.abs(number)).length();
     }

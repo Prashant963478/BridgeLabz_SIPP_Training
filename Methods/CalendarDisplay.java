@@ -6,11 +6,9 @@ public class CalendarDisplay {
                           "July", "August", "September", "October", "November", "December"};
         return months[month - 1];
     }
-
     public static boolean isLeapYear(int year) {
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
-
     public static int getDaysInMonth(int month, int year) {
         int[] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         if (month == 2 && isLeapYear(year)) return 29;
