@@ -4,9 +4,7 @@ public class NullPointerDemo {
         String text = null;
         
         System.out.println(text.length());
-    }
-
-    
+    }   
     public static void handleNullPointer() {
         String text = null;
         try {
