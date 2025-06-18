@@ -10,9 +10,7 @@ public class StudentScorecard {
             }
         }
         return scores;
-    }
-
-   
+    }   
     public static double[][] calculateStats(int[][] scores) {
         int n = scores.length;
         double[][] stats = new double[n][3]; 
