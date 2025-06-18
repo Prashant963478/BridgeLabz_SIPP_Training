@@ -1,16 +1,13 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class RockPaperScissors {
-   
+public class RockPaperScissors {   
     public static String getComputerChoice() {
         int n = new Random().nextInt(3);
         if (n == 0) return "rock";
         else if (n == 1) return "paper";
         else return "scissors";
-    }
-
-    
+    }    
     public static String findWinner(String user, String comp) {
         if (user.equals(comp)) return "Draw";
         if ((user.equals("rock") && comp.equals("scissors")) ||
@@ -19,9 +16,7 @@ public class RockPaperScissors {
             return "User";
         }
         return "Computer";
-    }
-
-    
+    } 
     public static String[][] calculateStats(int userWins, int compWins, int games) {
         String[][] stats = new String[2][3];
         stats[0][0] = "User";
