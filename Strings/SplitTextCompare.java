@@ -13,9 +13,7 @@ public class SplitTextCompare {
             
         }
         return count;
-    }
-
-    
+    }  
     public static String[] splitByCharAt(String str) {
         int len = getLength(str);
         int wordCount = 1;
