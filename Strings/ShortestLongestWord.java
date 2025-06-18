@@ -18,9 +18,7 @@ public class ShortestLongestWord {
         }
         words[wordIdx] = str.substring(start, len);
         return words;
-    }
-
-    
+    } 
     public static int getLength(String str) {
         int count = 0;
         try {
