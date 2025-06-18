@@ -6,7 +6,6 @@ public class NumberFormatDemo {
         int num = Integer.parseInt(text);
         System.out.println("Parsed number: " + num);
     }
-
     public static void handleNumberFormat(String text) {
         try {
             int num = Integer.parseInt(text);
