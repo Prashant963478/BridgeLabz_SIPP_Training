@@ -9,7 +9,6 @@ public class StudentVoting {
         }
         return ages;
     }
-
     public static String[][] checkVoting(int[] ages) {
         String[][] result = new String[ages.length][2];
         for (int i = 0; i < ages.length; i++) {
