@@ -14,7 +14,6 @@ public class ToggleCaseConverter {
             else
                 result += c;
         }
-
         System.out.println("Toggled string: " + result);
     }
 }
