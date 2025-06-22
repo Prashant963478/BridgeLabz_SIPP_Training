@@ -6,8 +6,7 @@ public class LexicographicalComparator {
         System.out.print("Enter first string: ");
         String s1 = sc.nextLine();
         System.out.print("Enter second string: ");
-        String s2 = sc.nextLine();
-        
+        String s2 = sc.nextLine();        
 
         int len = Math.min(s1.length(), s2.length());
         boolean equal = true;
