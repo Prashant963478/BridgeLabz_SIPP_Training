@@ -11,7 +11,6 @@ public class LongestWordFinder {
             if (word.length() > longest.length())
                 longest = word;
         }
-
         System.out.println("Longest word: " + longest);
     }
 }
