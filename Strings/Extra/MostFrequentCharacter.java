@@ -5,7 +5,6 @@ public class MostFrequentCharacter {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String str = sc.nextLine().replaceAll("\\s+", "").toLowerCase();
-
         int[] freq = new int[256];
         for (char c : str.toCharArray())
             freq[c]++;
