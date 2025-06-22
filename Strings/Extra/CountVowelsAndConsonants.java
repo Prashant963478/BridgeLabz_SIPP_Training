@@ -6,7 +6,6 @@ public class CountVowelsAndConsonants {
         System.out.print("Enter a string: ");
         
         String str = sc.nextLine().toLowerCase();
-
         int vowels = 0, consonants = 0;
         for (char c : str.toCharArray()) {
             if (Character.isLetter(c)) {
