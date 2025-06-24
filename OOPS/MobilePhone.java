@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class MobilePhone {
     private String brand;
     private String model;
