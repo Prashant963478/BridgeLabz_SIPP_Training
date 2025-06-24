@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class Item {
     private String itemCode;
     private String itemName;
