@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class MovieTicket {
     private String movieName;
     private String seatNumber;
