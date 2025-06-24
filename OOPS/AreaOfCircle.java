@@ -1,5 +1,4 @@
 package com.classobject;
-
 public class AreaOfCircle {
 	double radius;
 	AreaOfCircle(double radius){
