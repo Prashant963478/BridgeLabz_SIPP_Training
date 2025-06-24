@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class Student {
     private String name;
     private int rollNumber;
