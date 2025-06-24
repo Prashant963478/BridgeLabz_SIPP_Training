@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class PalindromeChecker {
     private String text;
 
