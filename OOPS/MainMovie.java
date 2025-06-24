@@ -1,5 +1,4 @@
 package com.classobject;
-
 import java.util.Scanner;
 
 public class MainMovie {
