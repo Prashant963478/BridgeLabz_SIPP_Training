@@ -1,7 +1,6 @@
 package com.classobject;
 
 import java.util.Scanner;
-
 public class MainStudent {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
