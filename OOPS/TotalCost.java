@@ -19,7 +19,6 @@ public class TotalCost {
         int quantity = sc.nextInt();
 
         Item item = new Item(code, name, price);
-
         item.displayDetails();
         System.out.println("Total cost for " + quantity + " " + item.getItemName() + "(s): ₹" + item.calculateTotalCost(quantity));
     }
