@@ -2,14 +2,14 @@
 // Sample Program 3: Employee Management System
 // Demonstrates static, this, final, and instanceof best practices
 
-public class Q3_Employee {
+public class Employee {
     private static String companyName = "Tech Solutions";
     private static int totalEmployees = 0;
     private final int id;
     private String name;
     private String designation;
 
-    public Q3_Employee(String name, int id, String designation) {
+    public Employee(String name, int id, String designation) {
         this.name = name;
         this.id = id;
         this.designation = designation;
@@ -28,11 +28,12 @@ public class Q3_Employee {
     }
 
     public static void main(String[] args) {
-        Q3_Employee emp1 = new Q3_Employee("Sam", 1, "Manager");
+        Employee emp1 = new Employee("Sam", 1, "Manager");
         Object obj = emp1;
-        if (obj instanceof Q3_Employee) {
-            ((Q3_Employee) obj).displayDetails();
+        if (obj instanceof Employee) {
+            ((Employee) obj).displayDetails();
         }
-        Q3_Employee.displayTotalEmployees();
+        
+        Employee.displayTotalEmployees();
     }
 }
