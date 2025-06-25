@@ -2,14 +2,14 @@
 // Sample Program 5: University Student Management
 // Demonstrates static, this, final, and instanceof best practices
 
-public class Q5_Student {
+public class Student {
     private static String universityName = "National University";
     private static int totalStudents = 0;
     private final int rollNumber;
     private String name;
     private String grade;
 
-    public Q5_Student(String name, int rollNumber, String grade) {
+    public Student(String name, int rollNumber, String grade) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.grade = grade;
@@ -28,11 +28,11 @@ public class Q5_Student {
     }
 
     public static void main(String[] args) {
-        Q5_Student student1 = new Q5_Student("Rita", 201, "A");
+        Student student1 = new Student("Rita", 201, "A");
         Object obj = student1;
-        if (obj instanceof Q5_Student) {
-            ((Q5_Student) obj).displayDetails();
+        if (obj instanceof Student) {
+            ((Student) obj).displayDetails();
         }
-        Q5_Student.displayTotalStudents();
+        Student.displayTotalStudents();
     }
 }
