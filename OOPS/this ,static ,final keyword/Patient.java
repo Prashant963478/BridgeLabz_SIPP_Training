@@ -2,7 +2,7 @@
 // Sample Program 7: Hospital Management System
 // Demonstrates static, this, final, and instanceof best practices
 
-public class Q7_Patient {
+public class Patient {
     private static String hospitalName = "City Hospital";
     private static int totalPatients = 0;
     private final int patientID;
@@ -10,7 +10,7 @@ public class Q7_Patient {
     private int age;
     private String ailment;
 
-    public Q7_Patient(int patientID, String name, int age, String ailment) {
+    public Patient(int patientID, String name, int age, String ailment) {
         this.patientID = patientID;
         this.name = name;
         this.age = age;
@@ -31,11 +31,11 @@ public class Q7_Patient {
     }
 
     public static void main(String[] args) {
-        Q7_Patient patient1 = new Q7_Patient(301, "Rahul", 45, "Fever");
+        Patient patient1 = new Patient(301, "Rahul", 45, "Fever");
         Object obj = patient1;
-        if (obj instanceof Q7_Patient) {
-            ((Q7_Patient) obj).displayDetails();
+        if (obj instanceof Patient) {
+            ((Patient) obj).displayDetails();
         }
-        System.out.println("Total Patients: " + Q7_Patient.getTotalPatients());
+        System.out.println("Total Patients: " + Patient.getTotalPatients());
     }
 }
