@@ -1,4 +1,4 @@
-package inheritance_package;
+
 
 //Animal superclass
 class Animal {
