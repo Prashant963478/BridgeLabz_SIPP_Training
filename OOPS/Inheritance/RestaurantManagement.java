@@ -1,4 +1,3 @@
-package multiple_inheritance_package;
 
 //Person superclass
 class Person {
