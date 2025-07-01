@@ -1,4 +1,4 @@
-package hierarchial_inheritance_package;
+
 
 //Person superclass
 class Person {
