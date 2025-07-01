@@ -1,4 +1,4 @@
-package inheritance_package;
+
 
 //Vehicle superclass
 class Vehicle {
