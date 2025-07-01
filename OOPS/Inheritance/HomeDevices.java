@@ -1,4 +1,4 @@
-package single_inheritance_package;
+
 
 //Device superclass
 class Device {
