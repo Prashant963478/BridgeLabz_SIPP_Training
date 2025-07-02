@@ -1,4 +1,4 @@
-package object_modeling_package;
+
 
 //Customer class
 class Customer {
