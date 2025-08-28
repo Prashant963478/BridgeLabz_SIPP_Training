@@ -1,1 +1,0 @@
-// FoodTax.java placeholder

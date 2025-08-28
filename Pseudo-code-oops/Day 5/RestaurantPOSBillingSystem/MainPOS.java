@@ -1,1 +1,0 @@
-// MainPOS.java placeholder

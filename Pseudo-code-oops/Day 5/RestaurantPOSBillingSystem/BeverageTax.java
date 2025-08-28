@@ -1,1 +1,0 @@
-// BeverageTax.java placeholder
