@@ -1,1 +1,0 @@
-// MainSmartGrid.java placeholder
