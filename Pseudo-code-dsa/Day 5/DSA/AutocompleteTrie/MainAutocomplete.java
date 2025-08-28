@@ -1,1 +1,0 @@
-// MainAutocomplete.java placeholder
